@@ -481,6 +481,8 @@ hr { border: 0; border-top: 1px solid var(--border); margin: var(--sp-8) 0; }
 .sl-btn--sm.sl-btn--icon { width: var(--control-h-sm); }
 .sl-btn--lg.sl-btn--icon { width: var(--control-h-lg); }
 .sl-btn--pill { border-radius: var(--r-full); }
+.sl-btn--pill:has(.sl-badge) { padding-right: 6px; }
+.sl-btn--pill .sl-badge { padding: 4px 6px; border-radius: var(--r-full); font-size: 11px; }
 
 /* Input */
 .sl-input, .sl-textarea, .sl-select {
